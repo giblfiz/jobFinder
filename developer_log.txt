@@ -1,0 +1,364 @@
+
+1
+the time is 
+1
+the time is 
+1
+the time is 
+1
+the time is 
+1
+the time is 
+1
+the time is foo 
+Array
+(
+    [myname] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+the time is foo 
+Array
+(
+    [myname] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+the time is foo 
+Array
+(
+    [myname] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+the time is foo 
+Array
+(
+    [myname] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+the time is foo 
+Array
+(
+    [myname] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+the time is foo 
+Array
+(
+    [myname] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+the time is foo 
+Array
+(
+    [myname] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/php8ZmRkF
+            [error] => 0
+            [size] => 244989
+        )
+
+)
+
+the time is foo 
+Array
+(
+    [myname] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/php98BjkJ
+            [error] => 0
+            [size] => 244989
+        )
+
+)
+
+the time is foo 
+Array
+(
+    [myname] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phpsPjTDi
+            [error] => 0
+            [size] => 244989
+        )
+
+)
+
+the time is foo 
+Array
+(
+    [myname] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phpvpqsnP
+            [error] => 0
+            [size] => 625558
+        )
+
+)
+
+the time is foo 
+Possible file upload attack!
+
+Array
+(
+    [myname] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/php0Zl0Mu
+            [error] => 0
+            [size] => 279725
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+    [myname] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phpvSJEc3
+            [error] => 0
+            [size] => 753845
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+    [us] => The name!
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phprofbH6
+            [error] => 0
+            [size] => 1001207
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+    [user_name] => enter_your_last_name_here
+    [user_phone] => 555-555-1212
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phpnslvof
+            [error] => 0
+            [size] => 745823
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+    [user_name] => Harry Pottas
+    [user_phone] => 555-555-1212
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phpR44MTa
+            [error] => 0
+            [size] => 857136
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+    [user_name] => Harry Pottas
+    [user_phone] => 555-555-1212
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phpPY3H7s
+            [error] => 0
+            [size] => 857136
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+    [user_name] => enter_your_last_name_here
+    [user_phone] => 555-555-1212
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phpPoZqQE
+            [error] => 0
+            [size] => 1396317
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+    [user_name] => Mr_some_dude
+    [user_phone] => 6102206245
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phpvahjWo
+            [error] => 0
+            [size] => 1016773
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+    [user_name] => Mr_some_dude
+    [user_phone] => 6102206245
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phpoxnvrP
+            [error] => 0
+            [size] => 1016773
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+    [user_name] => Hermes
+    [user_phone] => 6102206245
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phpc2iLQD
+            [error] => 0
+            [size] => 959404
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
