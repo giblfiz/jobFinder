@@ -3,6 +3,8 @@
 //echo "<pre>";
 //print_r(scandir("uploads/"));
 
+echo '    <link rel="stylesheet" href="css/main.css">';
+
 $vids = scandir("uploads/");
 foreach ($vids as $v ){
     if(strstr($v, "...")){

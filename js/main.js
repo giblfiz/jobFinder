@@ -29,7 +29,7 @@ recordButton.addEventListener('click', () => {
     stopRecording();
     recordButton.textContent = 'Start Recording';
     playButton.disabled = false;
-    downloadButton.disabled = false;
+    //downloadButton.disabled = false;
     uploadButton.disabled = false;
   }
 });
@@ -44,21 +44,21 @@ playButton.addEventListener('click', () => {
   recordedVideo.play();
 });
 
-const downloadButton = document.querySelector('button#download');
-downloadButton.addEventListener('click', () => {
-  const blob = new Blob(recordedBlobs, {type: 'video/webm'});
-  const url = window.URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.style.display = 'none';
-  a.href = url;
-  a.download = 'test.webm';
-  document.body.appendChild(a);
-  a.click();
-  setTimeout(() => {
-    document.body.removeChild(a);
-    window.URL.revokeObjectURL(url);
-  }, 100);
-});
+//const downloadButton = document.querySelector('button#download');
+//downloadButton.addEventListener('click', () => {
+//  const blob = new Blob(recordedBlobs, {type: 'video/webm'});
+//  const url = window.URL.createObjectURL(blob);
+//  const a = document.createElement('a');
+//  a.style.display = 'none';
+//  a.href = url;
+//  a.download = 'test.webm';
+//  document.body.appendChild(a);
+//  a.click();
+//  setTimeout(() => {
+//    document.body.removeChild(a);
+//    window.URL.revokeObjectURL(url);
+//  }, 100);
+//});
 
 
 const uploadButton = document.querySelector('button#upload');
@@ -139,7 +139,7 @@ function startRecording() {
   console.log('Created MediaRecorder', mediaRecorder, 'with options', options);
   recordButton.textContent = 'Stop Recording';
   playButton.disabled = true;
-  downloadButton.disabled = true;
+  //downloadButton.disabled = true;
   mediaRecorder.onstop = (event) => {
     console.log('Recorder stopped: ', event);
   };
@@ -173,11 +173,11 @@ async function init(constraints) {
 }
 
 document.querySelector('button#start').addEventListener('click', async () => {
-  const hasEchoCancellation = document.querySelector('#echoCancellation').checked;
+  //const hasEchoCancellation = document.querySelector('#echoCancellation').checked;
   const constraints = {
-    audio: {
-      echoCancellation: {exact: hasEchoCancellation}
-    },
+    //audio: {
+    //  echoCancellation: {exact: hasEchoCancellation}
+    //},
     video: {
       width: 1280, height: 720
     }

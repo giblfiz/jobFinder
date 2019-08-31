@@ -362,3 +362,72 @@ Array
 the time is foo 
 File is valid, and was successfully uploaded.
 
+Array
+(
+    [user_name] => Waving_hello
+    [user_phone] => 555-555-5588
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/php69Li2w
+            [error] => 0
+            [size] => 704550
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+    [user_name] => mr_T
+    [user_phone] => 99-99-9999
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phpQJRFDb
+            [error] => 0
+            [size] => 518326
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+    [user_name] => Harry-The_guy
+    [user_phone] => 555-555-8899
+    [PHPSESSID] => 12d732a361a95185571f1b99676a0639
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+the time is foo 
+FAILURE
+ ||| uploads/Harry-The_guy...555-555-8899.webm

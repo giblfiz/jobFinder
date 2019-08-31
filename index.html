@@ -24,7 +24,6 @@
 
     <link rel="icon" sizes="192x192" href="../../../images/webrtc-icon-192x192.png">
     <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../../../css/main.css">
     <link rel="stylesheet" href="css/main.css">
 
 </head>
@@ -33,50 +32,68 @@
 
 <div id="container">
 
-    <h1><a href="//webrtc.github.io/samples/" title="WebRTC samples homepage">WebRTC samples</a>
-        <span>MediaRecorder</span></h1>
+<h1>Record your job request</h1>
 
-    <p>For more information see the MediaStream Recording API <a
-            href="http://w3c.github.io/mediacapture-record/MediaRecorder.html"
-            title="W3C MediaStream Recording API Editor's Draft">Editor's&nbsp;Draft</a>.</p>
+<div id="text_inputs">
+    <span>Name: </span> <input type="text" name="user_name" id="user_name" value="enter_your_last_name_here" />
+    <br/>
+    <span>Phone Number:</span> <input type="text" name="user_phone" id="user_phone" value="555-555-1212" />
+</div>
 
-    <video id="gum" playsinline autoplay muted></video>
-    <video id="recorded" playsinline loop></video>
+</br></br>
+
+    <video id="gum" playsinline autoplay muted></video></br></br>
 
     <div>
         <button id="start">Start camera</button>
         <button id="record" disabled>Start Recording</button>
+        <br/>
         <button id="play" disabled>Play</button>
-        <button id="download" disabled>Download</button>
+        <!--<button id="download" disabled>Download</button>-->
         <button id="upload" disabled>Upload</button>
 
     </div>
 
-    <div>
+
+    <video id="recorded" playsinline ></video>
+
+
+<!--    <div>
         <h4>Media Stream Constraints options</h4>
         <p>Echo cancellation: <input type="checkbox" id="echoCancellation"></p>
     </div>
-
-<div>
-    Name: <input type="text" name="user_name" id="user_name" value="enter_your_last_name_here" />
-    <br/>
-    Phone Number: <input type="text" name="user_phone" id="user_phone" value="555-555-1212" />
-</div>
+-->
 
     <div>
         <span id="errorMsg"></span>
     </div>
 
+
+<div id="programmers_info">
+<h2><a href="seeVideos.php"> View Posted Videos</a><br/></h2>
+
     <a href="https://github.com/webrtc/samples/tree/gh-pages/src/content/getusermedia/record"
-       title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+       title="View source for this page on GitHub" id="viewSource">Adapted by Harry, from this sample on Github</a>
+
+    <p>For more information see the MediaStream Recording API <a
+            href="http://w3c.github.io/mediacapture-record/MediaRecorder.html"
+            title="W3C MediaStream Recording API Editor's Draft">Editor's&nbsp;Draft</a>.</p>
+</div>
+
+</div>
+
+<div id="instructions">
+    <h2>Suggested script:</h2>
+    <p>Hi, My name is _________ and I am currently seeking employment as a ________</p>
+    <p>I have ____ years of experiance, and have mostly focoused on _______ in my work.
+    I am hoping to find a job that pays _____ and am avalible ____ hours per week.</p>
 
 </div>
 
 <!-- include adapter for srcObject shim -->
 <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
 <script src="js/main.js" async></script>
-
-    <script
+<script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>

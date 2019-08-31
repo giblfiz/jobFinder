@@ -21,6 +21,23 @@ p.borderBelow {
   padding: 0 0 20px 0;
 }
 
+div#text_inputs span {
+  float:left;
+  width: 120px;
+}
+
+div#container {
+  width: 480px;
+  margin: 10px;
+  float:left;
+}
+
+div#instructions {
+  margin: 10px;
+  float:left;
+}
+
+
 video {
   vertical-align: top;
   --width: 25vw;
@@ -29,9 +46,9 @@ video {
 }
 
 video:last-of-type {
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0 ;
 }
 
 video#gumVideo {
-  margin: 0 20px 20px 0;
+  margin: 20px 20px 20px 20px;
 }
