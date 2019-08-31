@@ -59,3 +59,27 @@ video:last-of-type {
 video#gumVideo {
   margin: 20px 20px 20px 20px;
 }
+
+
+/*below is stuff for the index page*/
+div#apply {
+  border: double 2px;
+  margin: 20px;
+  height: 40vh;
+  text-align: center;
+}
+
+div#apply img{
+  height: 60%;
+}
+
+div#hire {
+  border: double 2px;
+  margin: 20px;
+  height: 40vh;
+  text-align: center;
+}
+
+div#hire img{
+  height: 60%;
+}
