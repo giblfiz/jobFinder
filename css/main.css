@@ -5,6 +5,11 @@
  *  that can be found in the LICENSE file in the root of the source
  *  tree.
  */
+
+body{
+  width:640px;
+}
+
  button {
   margin: 0 3px 10px 0;
   padding-left: 2px;
@@ -40,9 +45,11 @@ div#instructions {
 
 video {
   vertical-align: top;
-  --width: 25vw;
+  --width: 80vw;
   width: var(--width);
   height: calc(var(--width) * 0.5625);
+  max-width: 350px;
+  max-height: 197px;
 }
 
 video:last-of-type {
