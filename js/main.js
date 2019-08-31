@@ -1,5 +1,5 @@
 /*
-*  Copyright (c) 2015 The WebRTC project authors. All Rights Reserved.
+*  Copyright (c) 2015 The WebRT project authors. All Rights Reserved.
 *
 *  Use of this source code is governed by a BSD-style license
 *  that can be found in the LICENSE file in the root of the source
@@ -174,10 +174,11 @@ async function init(constraints) {
 
 document.querySelector('button#start').addEventListener('click', async () => {
   //const hasEchoCancellation = document.querySelector('#echoCancellation').checked;
+  const hasEchoCancellation = false;
   const constraints = {
-    //audio: {
-    //  echoCancellation: {exact: hasEchoCancellation}
-    //},
+    audio: {
+      echoCancellation: {exact: hasEchoCancellation}
+    },
     video: {
       width: 1280, height: 720
     }
