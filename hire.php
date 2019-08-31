@@ -10,9 +10,9 @@ foreach ($vids as $v ){
     if(strstr($v, "...")){
       $vparts = explode("...", $v);
       
-      echo "<div>";
+      echo "<div class='person'>";
       echo "<video src='uploads/$v' width=20% controls></video>";
-      echo "<a href='uploads/$v'>$vparts[0] </a> Phone: $vparts[1]<br/>";
+      echo "<a href='uploads/$v'>$vparts[0] </a> <br/><p>Phone: ".substr($vparts[1],0,-5) . "</p><br/>";
       echo "</div>";
 
         //echo "$v \n";

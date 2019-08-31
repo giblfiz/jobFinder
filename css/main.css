@@ -83,3 +83,16 @@ div#hire {
 div#hire img{
   height: 60%;
 }
+
+div.person {
+ border: double 2px;
+ margin: 20px;
+ float: left;
+ width: 80vw;
+}
+
+div.person video{
+  width: 60%;
+  margin: 20px;
+  float: left;
+}
