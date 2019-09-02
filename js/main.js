@@ -83,6 +83,10 @@ uploadButton.addEventListener('click', () => {
         //form.append("myname",$("#name_test").value);
         form.append("user_name",$("#user_name").val());
         form.append("user_phone",$("#user_phone").val());
+        request.onload = function() {
+          alert(`Upload Complete: ${request.status} ${request.response}`);
+        };
+        
         request.open("POST","./UploadCatcher.php",true);
         request.send(form);
 

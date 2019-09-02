@@ -541,3 +541,124 @@ Array
 the time is foo 
 File is valid, and was successfully uploaded.
 
+Array
+(
+    [user_name] => enter_your_last_name_here
+    [user_phone] => 555-555-1212
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+the time is foo 
+FAILURE
+ ||| uploads/enter_your_last_name_here...555-555-1212.webm
+Array
+(
+    [user_name] => really fast
+    [user_phone] => 555-555-1212
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+the time is foo 
+FAILURE
+ ||| uploads/really_fast...555-555-1212.webm
+Array
+(
+    [user_name] => really fast
+    [user_phone] => 555-555-1212
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+the time is foo 
+FAILURE
+ ||| uploads/really_fast...555-555-1212.webm
+Array
+(
+    [user_name] => really fast
+    [user_phone] => 555-555-1212
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phplwtMKf
+            [error] => 0
+            [size] => 1269405
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+    [user_name] => really fast
+    [user_phone] => 555-555-1212
+)
+
+Array
+(
+    [myblob] => Array
+        (
+            [name] => Capture.webm
+            [type] => video/webm
+            [tmp_name] => /private/var/folders/4j/fhng0hgn79j48hfg7tq9d2s80000gn/T/phpu1g4uD
+            [error] => 0
+            [size] => 1269405
+        )
+
+)
+
+the time is foo 
+File is valid, and was successfully uploaded.
+
+Array
+(
+)
+
+Array
+(
+)
+
+the time is foo 
+FAILURE
+ ||| uploads/....webm
